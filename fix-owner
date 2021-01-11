@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Change file owner to current user for Makefile
+
+sudo chown $USER $1

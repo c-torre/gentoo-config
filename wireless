@@ -1,0 +1,22 @@
+#!/bin/sh
+#
+# Use Netifrc scripts to enable wpa_supplicant
+# XXX BORKED XXX
+
+net_conf_file="/etc/conf.d/net"
+wpa_conf_file="/etc/wpa_supplicant/wpa_supplicant.conf"
+
+bzless /usr/share/doc/wpa_supplicant*/wpa_supplicant.conf.bz2 > $wpa_conf_file
+
+echo "
+# Allow users in the 'wheel' group to control wpa_supplicant
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=wheel" >> $wpa_conf_file
+
+echo "
+# Make this file writable for wpa_gui / wpa_cli
+update_config=1" >> $wpa_conf_file
+
+# echo "
+# Prefer wpa_supplicant over wireless-tools
+# wpa_supplicant" >> $net_conf_file
+
