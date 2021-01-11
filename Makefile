@@ -6,7 +6,4 @@ get:
 put:
 	sudo cp make.conf /etc/portage/make.conf
 
-test:
-	touch testtttt
-
-.PHONY: test get put
+.PHONY: get put
