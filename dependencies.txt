@@ -7,20 +7,22 @@ sys-kernel/gentoo-sources
 sys-power/suspend
 
 # X Org
-x11-libs/libX11
-x11-base/xorg-drivers
-x11-base/xorg-server
-x11-base/xorg-xprop
-x11-libs/libXrandr
-x11-libs/libXinerama
-x11-libs/libXft
+x11-apps/xwininfo
 x11-apps/xinit
 x11-apps/xbacklight
 x11-apps/xrdb
 x11-apps/mesa-progs
 x11-apps/xrandr
+x11-base/xorg-drivers
+x11-base/xorg-server
+x11-base/xorg-xprop
 x11-drivers/xf86-video-vboxvideo
 x11-drivers/nvidia-drivers
+x11-libs/libX11
+x11-libs/libXrandr
+x11-libs/libXinerama
+x11-libs/libXft
+x11-libs/libnotify
 x11-misc/unclutter
 x11-misc/dunst
 x11-misc/xclip
@@ -31,36 +33,35 @@ x11-misc/arandr
 x11-misc/slock
 x11-misc/xcape
 x11-terms/rxvt-unicode
-x11-libs/libnotify
-x11-aps/xwininfo
 
 # Internet
+net-misc/youtube-dl
+net-misc/nextcloud-client
+net-news/newsboat
 net-wireless/wpa_supplicant
 net-wireless/wireless_tools
 www-client/firefox-bin
 www-client/lynx
-net-misc/youtube-dl
-net-news/newsboat
 
 # Communications and planning
 app-misc/abook
-mail-client/mutt-wizard
 app-office/calcurse
+mail-client/mutt-wizard
 
 # Documents
 app-editors/neovim
+app-text/poppler
 app-text/zathura
 app-text/zathura-djvu
 app-text/zathura-pdf-mupdf
 app-text/zathura-ps
-app-text/poppler
 
 # Utils
-sys-process/htop
-app-shells/fzf
-sys-devel/bc
 app-misc/task-spooler
+app-shells/fzf
 gnome-base/gnome-keyring
+sys-devel/bc
+sys-process/htop
 
 # Archiving and compression
 app-arch/atool
@@ -83,9 +84,9 @@ media-video/mpv
 media-video/mediatinfo
 
 # Fonts
+media-libs/fontconfig
 media-fonts/libertine
 media-fonts/noto-emoji
-media-libs/fontconfig
 
 # Libs
 media-libs/libjpeg-turbo
