@@ -1,11 +1,11 @@
 .POSIX:
 
 get:
-	sudo cp /etc/portage/make.conf . && sh fix-owner make.conf
-	sudo cp /etc/portage/package.use/manual-unmask . && sh fix-owner manual-unmask
+	sudo cp /etc/portage/make.conf portage/make.conf && sh utils/fix-owner portage/make.conf
+	sudo cp /etc/portage/package.use/manual-unmask portage/make.conf && sh utils/fix-owner portage/manual-unmask
 
 put:
-	sudo cp make.conf /etc/portage/make.conf
-	sudo cp manual-unmask /etc/portage/package.use/manual-unmask
+	sudo cp portage/make.conf /etc/portage/make.conf
+	sudo cp portage/manual-unmask /etc/portage/package.use/manual-unmask
 
 .PHONY: get put

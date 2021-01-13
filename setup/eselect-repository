@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Initial setup for eselect-repository for alternate repositories.
+
+sudo mkdir -p /etc/portage/repos.conf
