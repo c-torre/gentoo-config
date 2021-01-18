@@ -4,6 +4,7 @@ sys-apps/pciutils
 app-eselect/eselect-repository
 app-gentoo/gentoolkit
 sys-kernel/gentoo-sources
+sys-process/cronie
 sys-power/suspend
 
 # X Org
@@ -49,7 +50,9 @@ app-office/calcurse
 mail-client/mutt-wizard
 
 # Documents
+app-editors/gedit
 app-editors/neovim
+app-text/evince
 app-text/poppler
 app-text/zathura
 app-text/zathura-djvu
@@ -85,6 +88,7 @@ media-video/mediatinfo
 
 # Fonts
 media-libs/fontconfig
+media-fonts/cantarell
 media-fonts/dejavu
 media-fonts/libertine
 media-fonts/noto-emoji

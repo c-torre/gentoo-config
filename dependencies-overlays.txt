@@ -1,0 +1,5 @@
+# LARBS on Gentoo and no internet junk.
+# Use `dispatch-conf` to merge config files.
+# `u` confirms replacing previous config file with new.
+
+net-misc/sb-hosts

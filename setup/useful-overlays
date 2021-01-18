@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# Enable overlays to get gentoo lukesmith.xyz/larbs workig for rice and
+# StevenBlack/hosts to block internet junk.
+
+sudo eselect repository enable glarbs-overlay
+sudo eselect repository enable pf4public
