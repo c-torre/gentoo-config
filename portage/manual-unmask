@@ -1,2 +1,3 @@
 sys-libs/libseccomp static-libs
 media-video/mpv cli
+media-sound/ncmpcpp clock outputs visualizer
