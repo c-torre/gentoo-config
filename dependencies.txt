@@ -100,6 +100,6 @@ media-libs/libv4l
 
 # Filesystems
 sys-fs/dosfstoosl
-sys-fs/exfat-utils
+sys-fs/exfatprogs
 sys-fs/ntfs3g
 sys-fs/simple-mtpfs
