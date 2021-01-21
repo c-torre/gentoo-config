@@ -24,16 +24,16 @@ x11-libs/libXrandr
 x11-libs/libXinerama
 x11-libs/libXft
 x11-libs/libnotify
+x11-misc/arandr
 x11-misc/unclutter
 x11-misc/dunst
+x11-misc/pcmanfm
+x11-misc/slock
+x11-misc/xcape
 x11-misc/xclip
 x11-misc/xcompmgr
 x11-misc/xdotool
 x11-misc/xwallpaper
-x11-misc/arandr
-x11-misc/slock
-x11-misc/xcape
-x11-terms/rxvt-unicode
 
 # Internet
 net-misc/youtube-dl
